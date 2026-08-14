@@ -80,21 +80,21 @@
             >;
         };
 
-        nav {
+        sym {
             display-name = "SYM";
             bindings = <
 &trans  &kp DE_AT  &kp DE_DQT  &kp SQT  &kp DE_CARET  &kp DE_PRCNT  &kp DE_TILDE  &kp PIPE  &kp DE_PLUS  &kp EQUAL  &kp DE_BSLH  &trans  &trans  &kp EXCLAMATION  &kp QMARK  &kp DE_LT  &kp DE_GT  &kp DE_DLLR  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp DE_ASTRK  &trans  &trans  &kp DE_LBKT  &kp DE_RBKT  &kp DE_LPAR  &kp DE_RPAR  &trans  &kp DE_GRAVE  &kp DE_HASH  &kp DE_LBRC  &kp DE_RBRC  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        adj {
+        num {
             display-name = "NUM";
             bindings = <
 &trans  &kp DE_COMMA  &kp DE_N7  &kp DE_N8  &kp DE_N9  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans  &trans  &kp DE_N0  &kp DE_N4  &kp DE_N5  &kp DE_N6  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans  &trans  &kp DE_DOT  &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp DE_COLON  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        sym {
+        sys {
             display-name = "SYS";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
