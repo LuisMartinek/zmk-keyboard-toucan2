@@ -4,9 +4,9 @@
 #include "keys_de.h"
 
 #define BASE 0
-#define NAV  1
-#define SYM  2
-#define ADJ  3
+#define SYM  1
+#define NUM  2
+#define SYS  3
 
 / {
     conditional_layers {
