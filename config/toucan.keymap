@@ -9,7 +9,14 @@
 #define SYS  3
 
 / {
-    conditional_layers { compatible = "zmk,conditional-layers"; };
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        activateSysLayer {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
 
     behaviors {
         HMR: HMR {
@@ -41,7 +48,7 @@
         HMHoldPreferredL: HMHoldPreferredL {
             compatible = "zmk,behavior-hold-tap";
             label = "HMHOLDPREFERREDL";
-            bindings = <&lt>, <&kp>;
+            bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
             hold-while-undecided;
@@ -53,7 +60,7 @@
         HMHoldPreferredR: HMHoldPreferredR {
             compatible = "zmk,behavior-hold-tap";
             label = "HMHOLDPREFERREDR";
-            bindings = <&lt>, <&kp>;
+            bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
             hold-while-undecided;
@@ -69,14 +76,14 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Z  &kp U  &kp I  &kp O  &kp P  &kp DE_U_UMLAUT  &kp ESC  &HML LCTRL DE_A  &HML LEFT_ALT DE_S  &HMHoldPreferredL 1 DE_D  &HML LEFT_META F  &kp G  &kp H  &HMR LEFT_META DE_J  &HMHoldPreferredR 1 DE_K  &HMR LEFT_ALT DE_L  &HMR LCTRL DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp LSHFT  &kp Y  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp DE_COMMA  &kp DE_DOT  &kp DE_MINUS  &kp RIGHT_SHIFT  &kp LEFT_SHIFT  &mo 1  &kp RET  &kp BSPC  &lt 2 SPACE  &kp RIGHT_SHIFT
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp DE_Z  &kp U  &kp I  &kp O  &kp P  &kp DE_U_UMLAUT  &kp ESC  &HML LCTRL DE_A  &HML LEFT_ALT DE_S  &HMHoldPreferredL 1 DE_D  &HML LEFT_META F  &kp G  &kp H  &HMR LEFT_META DE_J  &HMHoldPreferredR 1 DE_K  &HMR LEFT_ALT DE_L  &HMR LCTRL DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp LSHFT  &kp DE_Y  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp DE_COMMA  &kp DE_DOT  &kp DE_MINUS  &kp RIGHT_SHIFT  &kp LEFT_SHIFT  &mo 1  &kp RET  &kp BSPC  &lt 2 SPACE  &kp RIGHT_SHIFT
             >;
         };
 
         sym {
             display-name = "SYM";
             bindings = <
-&trans  &kp DE_AT  &kp DE_DQT  &kp SQT  &kp DE_CARET  &kp DE_PRCNT  &kp DE_TILDE  &kp PIPE  &kp DE_PLUS  &kp EQUAL  &kp DE_BSLH  &trans  &trans  &kp EXCLAMATION  &kp QMARK  &kp DE_LT  &kp DE_GT  &kp DE_DLLR  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp DE_ASTRK  &trans  &trans  &kp DE_LBKT  &kp DE_RBKT  &kp DE_LPAR  &kp DE_RPAR  &trans  &kp DE_GRAVE  &kp DE_HASH  &kp DE_LBRC  &kp DE_RBRC  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp DE_AT_SIGN  &kp DE_DQT  &kp SQT  &kp DE_CARET  &kp DE_PRCNT  &kp DE_TILDE  &kp PIPE  &kp DE_PLUS  &kp EQUAL  &kp DE_BSLH  &trans  &trans  &kp EXCLAMATION  &kp DE_QMARK  &kp DE_LT  &kp DE_GT  &kp DE_DLLR  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp DE_ASTRK  &trans  &trans  &kp DE_LEFT_BRACKET  &kp DE_RIGHT_BRACKET  &kp DE_LPAR  &kp DE_RPAR  &trans  &kp DE_GRAVE  &kp DE_HASH  &kp DE_LBRC  &kp DE_RBRC  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
