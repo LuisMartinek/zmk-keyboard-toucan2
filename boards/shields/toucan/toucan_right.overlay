@@ -73,9 +73,9 @@
         press-and-hold;
         //swipes;
         three-finger-swipe;
-        three-finger-swipe-throttle-ms = <1200>;
+        three-finger-swipe-throttle-ms = <100>;
         switch-xy;
-        invert-scroll-y;
+        //invert-scroll-y;
 
     };
 };
