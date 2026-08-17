@@ -96,7 +96,7 @@
         sym {
             display-name = "SYM";
             bindings = <
-&trans  &kp DE_AT_SIGN  &kp DE_DQT  &kp SQT  &kp DE_CARET  &kp DE_PRCNT  &kp DE_TILDE  &kp PIPE  &kp DE_PLUS  &kp DE_EQUAL  &kp DE_BSLH  &trans  &trans  &kp EXCLAMATION  &kp DE_QMARK  &kp DE_LT  &kp DE_GT  &kp DE_DLLR  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp DE_ASTRK  &trans  &trans  &kp DE_LEFT_BRACKET  &kp DE_RIGHT_BRACKET  &kp DE_LPAR  &kp DE_RPAR  &kp DE_SLASH  &kp DE_GRAVE  &kp DE_HASH  &kp DE_LBRC  &kp DE_RBRC  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp DE_AT_SIGN  &kp DE_DQT  &kp DE_SQT  &kp DE_CARET  &kp DE_PRCNT  &kp DE_TILDE  &kp PIPE  &kp DE_PLUS  &kp DE_EQUAL  &kp DE_BSLH  &trans  &trans  &kp EXCLAMATION  &kp DE_QMARK  &kp DE_LT  &kp DE_GT  &kp DE_DLLR  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp DE_ASTRK  &trans  &trans  &kp DE_LEFT_BRACKET  &kp DE_RIGHT_BRACKET  &kp DE_LPAR  &kp DE_RPAR  &kp DE_SLASH  &kp DE_GRAVE  &kp DE_HASH  &kp DE_LBRC  &kp DE_RBRC  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
