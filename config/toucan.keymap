@@ -103,7 +103,7 @@
         num {
             display-name = "NUM";
             bindings = <
-&trans  &kp DE_COMMA  &kp DE_N7  &kp DE_N8  &kp DE_N9  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans  &trans  &kp DE_N0  &kp DE_N4  &kp DE_N5  &kp DE_N6  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans  &trans  &kp DE_DOT  &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp DE_COLON  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp DE_COMMA  &kp DE_N7  &kp DE_N8  &kp DE_N9  &mkp LCLK  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans  &trans  &kp DE_N0  &kp DE_N4  &kp DE_N5  &kp DE_N6  &mkp RCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans  &trans  &kp DE_DOT  &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp DE_COLON  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
